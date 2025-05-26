@@ -23,8 +23,8 @@ src/
     │               │   └── ParticipanteController.java
     │               │
     │               ├── dtos/              ← Objetos de transferência de dados
-    │               │   └── EventoDTO.java
-    │               │   └── ParticipanteDTO.java
+    │               │   └── EventosDTO.java
+    │               │   └── ParticipantesDTO.java
     │               │
     │               ├── entities/          ← Entidades JPA (modelo do banco)
     │               │   └── Eventos.java
