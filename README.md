@@ -62,53 +62,11 @@ Tanto no app quanto na API o sistema permite
 - ✏️ Editar dados de um evento/participante
 - ➕ Cadastrar um novo evento/participante
 
-## 🆕 Adicionar um novo evento requisição **PUT**
-   ```JSON
-   {
-    "id": ,
-    "nome": "",
-    "descricao": "",
-    "data": "2025-07-14",
-    "local": "",
-    "vagas": ,
-    "vagasDisponiveis":
-   }
+## 📄 Documentação da API
 
-````
-## 🙎‍♂️🆕 Adicionar um novo participante requisição **PUT**
+A documentação Swagger está disponível aqui:
 
-```JSON
-{
-  "nome": "João Silva",
-  "email": "joaosilva@email.com",
-  "telefone": "11987654321",
-  "eventos": [
-    {
-  "id": 1
-    },
-    {
-      "id": 3
-    }
-  ]
-}
-
-````
-### 🎉🆙 URL para puxar todos os eventos requisição **GET** 
-```
-http://localhost:8080/eventos
-````
-### 🎉🆙 URL para puxar apenas um evento pelo Id requisição **GET**
-```
-http://localhost:8080/eventos/("/{id}")
-````
-### 🙎‍♂️🆙 URL para puxar todos os participantes requsição **GET**
-```
-http://localhost:8080/participantes
-````
-### 🙎‍♂️🆙 URL para puxar apenas um participante pelo Id requisição **GET**
-```
-http://localhost:8080/participantes/("/{id}")
-````
+🔗 [Acesse a documentação Swagger](http://localhost:8080/swagger-ui/index.html#/)
 
 
 
